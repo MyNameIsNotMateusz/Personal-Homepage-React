@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        font-family: "Inter", sans-serif;
+        font-family: 'Roboto', sans-serif;
         transition: background 0.3s;
         background: ${({ theme }) => theme.colors.site.background};
         color: ${({ theme }) => theme.colors.site.text};
