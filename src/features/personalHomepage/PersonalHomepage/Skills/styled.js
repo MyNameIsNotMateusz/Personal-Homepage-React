@@ -16,11 +16,11 @@ export const Section = styled.section`
 `;
 
 export const List = styled.ul`
-    margin-top: 32px;
+    margin-top: 25px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 8px 32px;
+    grid-gap: 1px 32px;
     list-style: none;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.tableHorizontalMax}px) {
