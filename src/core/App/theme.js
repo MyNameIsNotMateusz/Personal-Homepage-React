@@ -54,3 +54,31 @@ export const themeLight = {
         },
     },
 };
+
+export const themeDark = {
+    ...common,
+    colors: {
+        primary: colorNames.dodgerBlue,
+        textPrimary: colorNames.white,
+        site: {
+            background: colorNames.mineShaft,
+            text: colorNames.white,
+        },
+        buttonLink: {
+            text: colorNames.white,
+            border: colorNames.ironTransparent,
+            shadow: colorNames.shipCove,
+        },
+        boxBackground: colorNames.mineShaftLighter,
+        headerLine: colorNames.tundora,
+        tile: {
+            border: colorNames.tundora,
+            borderHover: colorNames.blumine,
+            header: colorNames.white,
+        },
+        themeSwitch: {
+            background: colorNames.doveGray,
+            icon: colorNames.mineShaft,
+        },
+    },
+};

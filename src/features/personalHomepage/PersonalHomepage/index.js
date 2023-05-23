@@ -7,7 +7,6 @@ import { Footer } from "./Footer";
 import { ThemeSwitch } from "../../../common/ThemeSwitch";
 import toolsIcon from "./toolsIcon.png";
 import rocketIcon from "./rocketIcon.png";
-import { nextSkills, skills } from "./skillsData";
 
 export const PersonalHomepage = () => (
     <Container>

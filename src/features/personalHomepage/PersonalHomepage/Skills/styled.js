@@ -37,3 +37,32 @@ export const List = styled.ul`
         margin-top: 12px
     }
 `;
+
+export const Item = styled.li`
+    display: flex;
+    line-height: 1.4;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        line-height: 1.2;
+    }
+`;
+
+export const Bullet = styled(BulletImage)`
+    color: ${({ theme }) => theme.colors.primary};
+    margin-right: 16px;
+    height: auto;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        width: 6px;
+        margin-right: 8px;
+    }
+`;
+
+export const StyledHeader = styled(SubHeader)`
+    padding-bottom: 16px;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.headerLine};
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        padding-bottom: 12px;
+    }
+`;

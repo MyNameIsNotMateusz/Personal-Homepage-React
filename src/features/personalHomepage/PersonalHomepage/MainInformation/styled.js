@@ -36,7 +36,7 @@ export const ThisIs = styled.div`
     letter-spacing: initial;
 `;
 
-export const Name = styled.h`
+export const Name = styled.h1`
     font-size: 38px;
     font-weight: 900;
     color: ${({ theme }) => theme.colors.textPrimary};

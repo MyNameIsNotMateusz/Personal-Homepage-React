@@ -3,5 +3,5 @@ export const skills = [
 ];
 
 export const nextSkills = [
-    "Macanko"
+    "Macanko",
 ];
