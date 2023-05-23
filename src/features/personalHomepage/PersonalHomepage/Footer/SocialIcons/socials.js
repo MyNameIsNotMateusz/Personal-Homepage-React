@@ -16,7 +16,7 @@ export const socials = [
     },
     {
         name: "LinkedIn",
-        url: "https://pl.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F",
+        url: "https://www.linkedin.com/in/mateusz-otorowski-28721b278/",
         Icon: styleIcon(LinkedInIcon),
     },
 ];
