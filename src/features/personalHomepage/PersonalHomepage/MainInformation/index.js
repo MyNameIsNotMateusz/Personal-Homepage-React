@@ -13,7 +13,7 @@ export const MainInformation = () => (
             <Summary>
                 <Icon src={faceIcon} alt="" />
                 <Icon src={laptopIcon} alt="" />
-                Jestem malutki!
+                I'm passionate about frontend development, specifically JavaScript, and I am currently seeking employment.
             </Summary>
             <StyledButtonLink href={`mailto:${email}`} title={email} >
                 <ButtonIcon />

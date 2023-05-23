@@ -40,21 +40,21 @@ export const List = styled.ul`
 
 export const Item = styled.li`
     display: flex;
-    line-height: 1.4;
+    line-height: 3.5;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        line-height: 1.2;
+        line-height: 4;
     }
 `;
 
 export const Bullet = styled(BulletImage)`
     color: ${({ theme }) => theme.colors.primary};
-    margin-right: 16px;
+    margin-right: 0px;
     height: auto;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        width: 6px;
-        margin-right: 8px;
+        width: 50px;
+        margin-right: 1px;
     }
 `;
 
