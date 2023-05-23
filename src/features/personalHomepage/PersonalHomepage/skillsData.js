@@ -25,4 +25,6 @@ export const skills = [
 export const nextSkills = [
     "JS classes",
     "TypeScript",
+    "Unit testing",
+    "Angular",
 ];
