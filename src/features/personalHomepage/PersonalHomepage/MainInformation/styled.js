@@ -20,12 +20,12 @@ export const Wrapper = styled.header`
 `;
 
 export const Avatar = styled.img`
-    width: 30vw;
+    width: 25vw;
     max-width: 384px;
     border-radius: 50%;
 
     @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        width: 132px;
+        width: 125px;
     }
 `;
 
